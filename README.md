@@ -50,18 +50,6 @@ ctf-event-name/forensics/hard/nama-challenge.md
 
 Gunakan nama tingkat kesulitan yang konsisten, misalnya `easy`, `medium`, `hard`, atau tingkat kesulitan lain yang digunakan oleh platform terkait.
 
-## Format Writeup
-
-Setiap writeup sebaiknya memuat informasi berikut:
-
-1. Nama challenge dan platform/event
-2. Kategori dan tingkat kesulitan
-3. Deskripsi singkat challenge
-4. Langkah analisis dan eksploitasi
-5. Tools atau script yang digunakan
-6. Flag atau hasil akhir
-7. Insight dan pembelajaran
-
 > Catatan: spoiler dapat ditemukan di dalam writeup. Gunakan repository ini sebagai sarana belajar dan pastikan seluruh analisis dilakukan sesuai aturan platform atau event terkait.
 
 ## Tujuan
