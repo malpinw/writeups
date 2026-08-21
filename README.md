@@ -19,27 +19,36 @@ Writeup dapat mencakup beberapa kategori berikut:
 
 ## Struktur Direktori
 
-Writeup dikelompokkan berdasarkan platform atau event CTF, kemudian dapat dibagi lagi berdasarkan kategori challenge.
+Writeup dikelompokkan berdasarkan platform atau event CTF, kategori challenge, dan tingkat kesulitan.
 
 ```text
 .
 ├── platform-atau-event/
 │   ├── web/
-│   │   └── nama-challenge.md
+│   │   ├── easy/
+│   │   │   └── nama-challenge.md
+│   │   ├── medium/
+│   │   │   └── nama-challenge.md
+│   │   └── hard/
+│   │       └── nama-challenge.md
 │   ├── crypto/
-│   │   └── nama-challenge.md
+│   │   └── tingkat-kesulitan/
+│   │       └── nama-challenge.md
 │   └── forensics/
-│       └── nama-challenge.md
+│       └── tingkat-kesulitan/
+│           └── nama-challenge.md
 └── README.md
 ```
 
 Contoh penamaan direktori:
 
 ```text
-tryhackme/
-hackthebox/
-ctftime-event-name/
+tryhackme/web/easy/nama-challenge.md
+hackthebox/crypto/medium/nama-challenge.md
+ctf-event-name/forensics/hard/nama-challenge.md
 ```
+
+Gunakan nama tingkat kesulitan yang konsisten, misalnya `easy`, `medium`, `hard`, atau tingkat kesulitan lain yang digunakan oleh platform terkait.
 
 ## Format Writeup
 
